@@ -9,12 +9,10 @@ async function getStock() {
 function buildList() {
   getStock()
     .catch((error) => {
-      console.log(error);
       window.location.href = 'error.html';
     })
     .then(
       (stockItems) => {
-        console.log(stockItems)
         const families = [];
         stockItems.forEach((stockItem) => {
           const modelFamily = stockItem.modelFamily;
@@ -70,9 +68,9 @@ function buildList() {
           headingRow.appendChild(headingSpan);
         })
         stockList.appendChild(headingRow);
-        // iterate over the families list
+        // iterate the families list
         families.forEach((family) => {
-          //iterate over the items list of each family
+          //iterate the items list of each family
           family.items.forEach((item) => {
             // create a li element
             let listItem = document.createElement('li');
@@ -80,7 +78,7 @@ function buildList() {
             let span = document.createElement('span');
             span.innerHTML = family.modelFamily;
             listItem.appendChild(span);
-            // iterate over the elements of the items list and place them in a span
+            // iterate the elements of the items list and place them in a span
             Object.keys(item).forEach(i => {
               span = document.createElement('span');
               span.innerHTML = item[i];
