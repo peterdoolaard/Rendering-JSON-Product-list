@@ -1,0 +1,43 @@
+[
+  {
+    "itemNo": "12345",
+    "Description": "C35 LK Module",
+    "Sales_Lead": "",
+    "QTY_Avail": 0,
+    "modelFamily": "Modules and Ducting",
+    "comment": null
+  },
+  {
+    "itemNo": "12347",
+    "Description": "CR400B dehumidifier 230V/50Hz - Adapter solution",
+    "Sales_Lead": "",
+    "QTY_Avail": 54.0,
+    "modelFamily": "CR400B Dealer",
+    "comment": null
+  },
+  {
+    "itemNo": "12346",
+    "Description": "C35 Heat Recovery Module",
+    "Sales_Lead": "",
+    "QTY_Avail": 2.0,
+    "modelFamily": "Modules and Ducting",
+    "comment": null
+  },
+  {
+    "itemNo": "12348",
+    "Description": "CR290B dehumidifier 230V/50Hz - Adapter solution",
+    "Sales_Lead": "",
+    "QTY_Avail": 37.0,
+    "modelFamily": "CR290B Dealer",
+    "comment": null
+  },
+  {
+    "itemNo": "12348",
+    "Description": "Sp kit - Filter",
+    "Sales_Lead": "",
+    "QTY_Avail": 1.0,
+    "modelFamily": "",
+    "comment": null
+  }
+]
+

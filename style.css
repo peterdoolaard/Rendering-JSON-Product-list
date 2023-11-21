@@ -1,0 +1,11 @@
+.stock-list > li {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  grid-template-columns: 20ch 10ch 45ch 14ch 1fr;
+}
+
+span:first-child:empty::before {
+  content: 'No family'
+}
+
